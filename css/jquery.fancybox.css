@@ -1,6 +1,4 @@
-body.compensate-for-scrollbar {
-    overflow: hidden;
-}
+
 
 .fancybox-active {
     height: auto;
@@ -114,9 +112,6 @@ body.compensate-for-scrollbar {
     z-index: 99994;
 }
 
-.fancybox-is-open .fancybox-stage {
-    overflow: hidden;
-}
 
 .fancybox-slide {
     -webkit-backface-visibility: hidden;
@@ -154,7 +149,6 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-slide--image {
-    overflow: hidden;
     padding: 44px 0;
 }
 
@@ -276,7 +270,6 @@ body.compensate-for-scrollbar {
     display: block;
     height: 100%;
     margin: 0;
-    overflow: hidden;
     padding: 0;
     width: 100%;
 }
@@ -418,10 +411,6 @@ body.compensate-for-scrollbar {
     padding: 10px;
     right: 0;
     top: 0;
-}
-
-.fancybox-slide--image.fancybox-is-scaling .fancybox-content {
-    overflow: hidden;
 }
 
 .fancybox-is-scaling .fancybox-close-small,
@@ -818,9 +807,6 @@ body.compensate-for-scrollbar {
     width: 100%;
 }
 
-.fancybox-thumbs-x .fancybox-thumbs__list {
-    overflow: hidden;
-}
 
 .fancybox-thumbs-y .fancybox-thumbs__list::-webkit-scrollbar {
     width: 7px;
@@ -851,7 +837,6 @@ body.compensate-for-scrollbar {
     max-height: calc(100% - 8px);
     max-width: calc(50% - 4px);
     outline: none;
-    overflow: hidden;
     padding: 0;
     position: relative;
     -webkit-tap-highlight-color: transparent;
