@@ -151,7 +151,7 @@
                     <!-- <div class="menu-overly-sidenav"></div> -->
                     <div class="flex_comp middle_menu sidenav">
                         <!-- Menu Section-->
-                        <nav class="main_menu">
+                        <nav class="main_menu" id="mainNavbar">
                             <ul class="reset">
                                 <li data-menuanchor="introducing">
                                     <a href="#introducing" class="introducing">Highlights</a>
@@ -1956,6 +1956,14 @@ COPYRIGHT © <script>var currentYear = new Date().getFullYear();document.write(c
             console.log(values[this.name] = $(this).val());
         });
 
+    </script>
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
     </script>
     <script src="https://s3-ap-southeast-1.amazonaws.com/assets.ngauge.co/javascripts/ecommerce.js"
         type="text/javascript"></script>
